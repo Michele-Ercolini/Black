@@ -1,0 +1,26 @@
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Navbar */
+
+.navbar-custom{
+    background-color: black !important;
+    border-bottom: 2px solid white;
+}
+
+/* Header */
+
+.bg-header{
+    height: 80vh;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 70%), linear-gradient(rgba(0,0,0,1) 0%, rgba(255,255,255,0.10) 50%, rgba(0,0,0,1) 100%), url(/public/media/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
