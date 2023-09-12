@@ -1,4 +1,4 @@
-html{
+body{
     background-color: black;
     color: white;
     font-family: 'Jura', sans-serif;
@@ -12,7 +12,7 @@ h1, h2{
 
 .navbar-custom{
     background-color: black !important;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 /* Header */
@@ -23,4 +23,26 @@ h1, h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* Numeri incrementali */
+
+.number{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#card{
+    position: relative;
+}
+
+#card::after{
+    content: '';
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 1px;
+    width: 90%;
+    border-bottom:2px solid #0274A2;
 }
