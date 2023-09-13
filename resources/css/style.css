@@ -1,7 +1,17 @@
-body{
-    background-color: black;
+*{
     color: white;
     font-family: 'Jura', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+:root{
+    --blue: #2b9df4;
+}
+
+.text-blue{
+    color: var(--blue);
 }
 
 h1, h2{
@@ -12,13 +22,14 @@ h1, h2{
 
 .navbar-custom{
     background-color: black !important;
+    height: 7vh;
     border-bottom: 1px solid white;
 }
 
 /* Header */
 
 .bg-header{
-    height: 80vh;
+    height: 70vh;
     background-image: radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 70%), linear-gradient(rgba(0,0,0,1) 0%, rgba(255,255,255,0.10) 50%, rgba(0,0,0,1) 100%), url(/public/media/moon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,6 +38,26 @@ h1, h2{
 
 /* Numeri incrementali */
 
+#btnNumbers{
+    cursor: pointer;
+    background-color: black;
+    border: none;
+}
+
+#btnNumbers:hover{
+    scale: 1.5;
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+}
+
+#numbers{
+    display: none;
+}
+#arrow{
+
+}
 .number{
     font-size: 40px;
     font-weight: bold;
@@ -41,8 +72,15 @@ h1, h2{
     content: '';
     position: absolute;
     left: 5%;
+    right: 5%;
     bottom: 0;
     height: 1px;
     width: 90%;
     border-bottom:2px solid #0274A2;
+}
+
+/* Icon & text */
+.blue-border{
+    padding-top: 10px;
+    border-top: 2px solid #0274A2;
 }

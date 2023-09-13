@@ -1,11 +1,11 @@
 
-let display=0;
+/* Show Incremental Numbers */
+let divNumbers = document.querySelector('#numbers');
+divNumbers.style.display = "none";
+let btnNumbers = document.querySelector('#btnNumbers')
+let arrow = document.querySelector('#arrow');
 
-function showHide(){
-    if(display==1){
-
-    }
-}
+/* Incremental Numbers */
 
 let firstNumber = document.querySelector('#firstNumber')
 let secondNumber = document.querySelector('#secondNumber')
@@ -26,7 +26,35 @@ function createInterval(total, element, timing){
     }, timing)
 }
 
-createInterval(1500, firstNumber, 100)
-createInterval(2500, secondNumber, 10)
-createInterval(500, thirdNumber, 500)
-createInterval(1000, fourthNumber, 300)
+let check = true;
+
+btnNumbers.addEventListener('click', ()=>{
+    if(divNumbers.style.display === "none"){
+        if(check){
+            btnNumbers.classList.add('rotate-180')
+            divNumbers.style.display = "block";
+            createInterval(1500, firstNumber, 10)
+            createInterval(2500, secondNumber, 6)
+            createInterval(500, thirdNumber, 30)
+            createInterval(1000, fourthNumber, 15)
+            check = false;
+            setTimeout(()=>{
+                check=true;
+            },10000)
+        }else{
+            btnNumbers.classList.add('rotate-180')
+            divNumbers.style.display = "block";
+        }
+
+    }else{
+        btnNumbers.classList.remove('rotate-180');
+        divNumbers.style.display = "none";
+        /* clearInterval(interval); */
+    }
+})
+
+
+
+
+
+
