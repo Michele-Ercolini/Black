@@ -40,7 +40,7 @@ btnNumbers.addEventListener('click', ()=>{
             check = false;
             setTimeout(()=>{
                 check=true;
-            },10000)
+            },15000)
         }else{
             btnNumbers.classList.add('rotate-180')
             divNumbers.style.display = "block";
