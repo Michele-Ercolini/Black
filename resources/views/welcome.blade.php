@@ -200,5 +200,30 @@
     </section>
         {{-- Fine Articoli e bottoni --}}
 
+        {{-- Footer --}}
+    <footer class="container-fluid bgFooter">
+        <div class="row m-5 align-items-end footer-height">
+            <div class="col-12 col-md-6">
+                <h5 class="text-blue" >Lorem ipsum</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-between mb-4">
+                <a href=""><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                <a class="" href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+        <div class="row footer-height-bottom justify-content-center">
+
+        </div>
+        <div class="row border-height justify-content-center">
+            <div class="col-6 border-footer">
+
+            </div>
+        </div>
+    </footer>
+        {{-- Fine Footer --}}
+    
 
 </x-layout>

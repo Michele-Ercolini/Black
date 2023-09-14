@@ -55,9 +55,7 @@ h1, h2{
 #numbers{
     display: none;
 }
-#arrow{
 
-}
 .number{
     font-size: 40px;
     font-weight: bold;
@@ -192,4 +190,32 @@ h1, h2{
     100%{
         transform: translateY(-100%);
     }
+}
+
+/* Footer */
+
+.bgFooter{
+    height: 70vh;
+    background-image: linear-gradient( rgba(0,0,0,1) 0%, rgba(255,255,255,0.0) 50%, rgba(0,0,0,1) 75%), url(/public/media/sunrise-1765027_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-height{
+    height: 60vh;
+}
+
+.footer-height-bottom{
+    min-height: 2vh;
+    background-color: black;
+}
+
+.border-footer{
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, #000000, #0274A2, #000000) 1 0 0 0;
+}
+
+.border-height{
+    height: 10vh;
 }
