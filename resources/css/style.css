@@ -36,6 +36,11 @@ h1, h2{
     background-position: center;
 }
 
+/* Divisore */
+
+.divisore{
+    height: 20vh;
+}
 /* Numeri incrementali */
 
 #btnNumbers{
@@ -87,6 +92,10 @@ h1, h2{
 
 .vh-50{
     height: 50vh;
+}
+
+.vh-80{
+    height: 80vh;
 }
 
 .vh-150{

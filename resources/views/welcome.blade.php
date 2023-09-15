@@ -66,10 +66,12 @@
     </div>
         {{-- Fine card laterale --}}
 
+    <div class="divisore"></div>
+
         {{-- Icons & text --}}
-    <div class="container-fluid my-5">
-        <div class="row m-5 justify-content-between align-items-center">
-            <div class="col-12 col-md-3 mb-5">
+    <div class="container my-5">
+        <div class="row mb-5 justify-content-between align-items-center">
+            <div data-aos="fade-down-right" data-aos-duration="1500" class="col-12 col-md-3 mb-5">
                 <h5 class="mt-5"><i class="fa-solid fa-meteor" style="color: #2b9df4;"></i> Lorem</h5>
                 <p class="blue-border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam, voluptatibus nulla dolor voluptas incidunt quisquam. Recusandae.
                 </p>
@@ -77,11 +79,11 @@
                 <p class="blue-border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam, voluptatibus nulla dolor voluptas incidunt quisquam. Recusandae.
                 </p>
             </div>
-            <div class="col-12 col-md-3 text-center">
+            <div data-aos="zoom-in-up" data-aos-duration="1500" class="col-12 col-md-3 text-center">
                 <h5 class="mt-5"><i class="fa-solid fa-sun" style="color: #2b9df4;"></i> Centro</h5>
                 <p class="blue-border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam, voluptatibus nulla dolor voluptas incidunt quisquam. Recusandae.
             </div>
-            <div class="col-12 col-md-3 text-end mb-5">
+            <div data-aos="fade-down-left" data-aos-duration="1500" class="col-12 col-md-3 text-end mb-5">
                 <h5 class="mt-5"><i class="fa-solid fa-user-astronaut" style="color: #2b9df4;"></i> Lorem</h5>
                 <p class="blue-border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam, voluptatibus nulla dolor voluptas incidunt quisquam. Recusandae.
                 </p>
@@ -93,29 +95,39 @@
     </div>
         {{-- Fine Icons & text --}}
     
+    <div class="divisore"></div>
+
         {{-- Missile --}}
     <section class="container-fluid">
         <div class="row m-5">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-between mt-5">
-                <article>
+                <article data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">
                     <h5 class="text-blue" >Lorem</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
                 </article>
-                <article>
+                <article data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">
                     <h5 class="text-blue" >Lorem</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
                 </article>
-                <article>
+                <article data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">
                     <h5 class="text-blue" >Lorem</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
                 </article>
             </div>
             <div class="col-12 col-md-6 mt-5">
-                    <img src="./media/missile-2027068_1280.png" class="img-fluid vh-100 mx-auto d-block" alt="">
+                    <img src="./media/missile-2027068_1280.png" class="img-fluid vh-80 mx-auto d-block" alt="">
             </div>
         </div>
     </section>
         {{--  Fine Missile--}}
+
+    <div class="divisore"></div>
 
         {{-- Articoli e bottoni --}}
     <section class="container-fluid">
@@ -124,7 +136,9 @@
                 <article class="mb-5 div-btn">
                     <h5 class="text-blue" >Lorem ipsum dolor</h5>
                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
-                    <div class="btn-height">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="btn-height">
                         <a class="btn-custom" href="">
                             <span></span>
                             <span></span>
@@ -136,7 +150,9 @@
                 <article class="mb-5 div-btn">
                     <h5 class="text-blue" >Lorem ipsum dolor</h5>
                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
-                    <div class="btn-height">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="btn-height">
                         <a class="btn-custom" href="">
                             <span></span>
                             <span></span>
@@ -148,7 +164,9 @@
                 <article class="mb-5 div-btn">
                     <h5 class="text-blue" >Lorem ipsum dolor</h5>
                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
-                    <div class="btn-height">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="btn-height">
                         <a class="btn-custom" href="">
                             <span></span>
                             <span></span>
@@ -162,7 +180,9 @@
                 <article class="mb-5 div-btn">
                     <h5 class="text-blue" >Lorem ipsum dolor</h5>
                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
-                    <div class="btn-height">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="btn-height">
                         <a class="btn-custom" href="">
                             <span></span>
                             <span></span>
@@ -174,7 +194,9 @@
                 <article class="mb-5 div-btn">
                     <h5 class="text-blue" >Lorem ipsum dolor</h5>
                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
-                    <div class="btn-height">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="btn-height">
                         <a class="btn-custom" href="">
                             <span></span>
                             <span></span>
@@ -186,7 +208,9 @@
                 <article class="mb-5 div-btn">
                     <h5 class="text-blue" >Lorem ipsum dolor</h5>
                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
-                    <div class="btn-height">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="btn-height">
                         <a class="btn-custom" href="">
                             <span></span>
                             <span></span>
@@ -200,14 +224,16 @@
     </section>
         {{-- Fine Articoli e bottoni --}}
 
+    <div class="divisore"></div>
+
         {{-- Footer --}}
     <footer class="container-fluid bgFooter">
-        <div class="row m-5 align-items-end footer-height">
-            <div class="col-12 col-md-6">
+        <div class="row m-5">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-end footer-height">
                 <h5 class="text-blue" >Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat, doloremque quam est cum vero aliquid, sed consequuntur ipsum, saepe consectetur maiores. Est corporis laudantium voluptatem vero et earum! Quos?</p>
             </div>
-            <div class="col-12 col-md-6 d-flex justify-content-between mb-4">
+            <div class="col-12 col-md-6 d-flex justify-content-between align-items-end mb-4">
                 <a href=""><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
                 <a class="" href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
                 <a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
